@@ -1,4 +1,4 @@
-package org.example.hospital.interfaces;
+package org.example.model;
 
 
 public interface Treatable {
