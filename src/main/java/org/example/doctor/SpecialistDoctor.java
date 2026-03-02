@@ -1,18 +1,16 @@
 package org.example.doctor;
 
-package org.example.hospital.doctor;
+
 
 import org.example.hospital.model.Doctor;
 
 
 public class SpecialistDoctor extends Doctor {
-    // Private attributes - Encapsulation
+
     private String specialty;
     private int yearsOfExperience;
 
-    /**
-     * Constructor
-     */
+
     public SpecialistDoctor(String name, int age, String gender, String phoneNumber,
                             String licenseNumber, int weeklyWorkHours,
                             String specialty, int yearsOfExperience) {
@@ -21,7 +19,7 @@ public class SpecialistDoctor extends Doctor {
         this.yearsOfExperience = yearsOfExperience;
     }
 
-    // Getters and Setters
+
     public String getSpecialty() {
         return specialty;
     }
@@ -61,13 +59,13 @@ public class SpecialistDoctor extends Doctor {
         System.out.println("  ✓ Período de vacaciones programado");
         System.out.println("    • 30 días de vacaciones anuales");
         System.out.println("    • Descanso merecido");
-        System.out.println("└─────────────────────────────────────────────────────┘");
+
     }
 
 
     public void displaySpecialty() {
         System.out.println("\n  📋 ESPECIALIDAD MÉDICA");
-        System.out.println("  ══════════════════════");
+
         System.out.println("  Especialidad: " + specialty);
         System.out.println("  Años de Experiencia: " + yearsOfExperience + " años");
         System.out.println("  Certificación: Vigente");
@@ -80,7 +78,7 @@ public class SpecialistDoctor extends Doctor {
         System.out.println("  Tipo: Médico Especialista");
         System.out.println("  Especialidad: " + specialty);
         System.out.println("  Experiencia: " + yearsOfExperience + " años");
-        System.out.println("════════════════════════════════════════════════════════");
+
     }
 
 

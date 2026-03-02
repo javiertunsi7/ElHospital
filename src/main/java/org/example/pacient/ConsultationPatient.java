@@ -1,8 +1,6 @@
-package org.example.pacient;
+package org.example.patient;
 
-
-
-import org.example.hospital.model.Patient;
+import org.example.model.Patient;
 
 
 public class ConsultationPatient extends Patient {

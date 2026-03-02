@@ -1,5 +1,6 @@
-package org.example.pacient;
-package org.example.hospital.patient;
+package org.example.patient;
+
+import org.example.model.Patient;
 
 import org.example.hospital.model.Patient;
 
