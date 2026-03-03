@@ -358,22 +358,20 @@ Al ejecutar el programa, verás una salida estructurada en consola con:
 ### Ejemplo de Salida
 
 ```
-╔════════════════════════════════════════════════════════════════╗
-║                                                                ║
+
 ║          🏥  SISTEMA DE GESTIÓN HOSPITALARIA  🏥              ║
-║                                                                ║
+
 ║              Bienvenido al Hospital General                    ║
-║                                                                ║
-╚════════════════════════════════════════════════════════════════╝
 
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
           SECCIÓN 1: PACIENTES DE CONSULTA EXTERNA
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-╔════════════════════════════════════════════════════════╗
+
+
 ║              INFORMACIÓN DEL PACIENTE                  ║
-╚════════════════════════════════════════════════════════╝
+
   Nombre: María García López
   Edad: 35 años
   Género: Femenino
@@ -382,11 +380,11 @@ Al ejecutar el programa, verás una salida estructurada en consola con:
   Diagnóstico: Hipertensión arterial
   Tipo de Paciente: Consulta Externa
   Fecha de Cita: 27/02/2026 - 10:00 AM
-════════════════════════════════════════════════════════
 
-┌─────────────────────────────────────────────────────┐
+
+
 │ PROCESO DE ADMISIÓN - PACIENTE DE CONSULTA         │
-└─────────────────────────────────────────────────────┘
+
   ✓ Admitiendo paciente: María García López
   ✓ Cita programada: 27/02/2026 - 10:00 AM
   ✓ Control de enfermería completado
@@ -401,7 +399,7 @@ Al ejecutar el programa, verás una salida estructurada en consola con:
   ✓ Proceso de salida completado
     • Receta médica entregada
     • Paciente dado de alta
-└─────────────────────────────────────────────────────┘
+
 
 [... continúa con más secciones ...]
 ```
