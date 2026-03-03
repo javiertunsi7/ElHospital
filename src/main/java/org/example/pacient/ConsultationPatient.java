@@ -28,7 +28,7 @@ public class ConsultationPatient extends Patient {
     @Override
     public void checkIn() {
 
-        System.out.println("PROCESO DE ADMISIÓN - PACIENTE DE CONSULTA");
+        System.out.println("│ PROCESO DE ADMISIÓN - PACIENTE DE CONSULTA         │");
 
         System.out.println("  ✓ Admitiendo paciente: " + getName());
         System.out.println("  ✓ Cita programada: " + appointmentDate);
@@ -62,12 +62,15 @@ public class ConsultationPatient extends Patient {
         System.out.println("    • Receta médica entregada");
         System.out.println("    • Paciente dado de alta");
 
+    }
+
 
     @Override
     public void displayInfo() {
         super.displayInfo();
         System.out.println("  Tipo de Paciente: Consulta Externa");
         System.out.println("  Fecha de Cita: " + appointmentDate);
+
     }
 
 

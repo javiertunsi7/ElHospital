@@ -1,8 +1,6 @@
 package org.example.model;
 
-
-
-import org.example.hospital.interfaces.Treatable;
+import org.example.interfaces.Treatable;
 
 
 public abstract class Patient extends Character implements Treatable {
@@ -47,7 +45,7 @@ public abstract class Patient extends Character implements Treatable {
     @Override
     public void displayInfo() {
 
-        System.out.println("INFORMACIÓN DEL PACIENTE");
+        System.out.println("║              INFORMACIÓN DEL PACIENTE                  ║");
 
         System.out.println("  Nombre: " + getName());
         System.out.println("  Edad: " + getAge() + " años");

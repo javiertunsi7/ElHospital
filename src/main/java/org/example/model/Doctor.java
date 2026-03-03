@@ -1,7 +1,6 @@
 package org.example.model;
 
-
-import org.example.hospital.interfaces.Workable;
+import org.example.interfaces.Workable;
 
 
 public abstract class Doctor extends Character implements Workable {
@@ -43,7 +42,7 @@ public abstract class Doctor extends Character implements Workable {
     @Override
     public void displayInfo() {
 
-        System.out.println("INFORMACIÓN DEL MÉDICO");
+        System.out.println("║              INFORMACIÓN DEL MÉDICO                    ║");
 
         System.out.println("  Nombre: Dr./Dra. " + getName());
         System.out.println("  Edad: " + getAge() + " años");

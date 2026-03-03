@@ -1,8 +1,6 @@
 package org.example.doctor;
 
-
-
-import org.example.hospital.model.Doctor;
+import org.example.model.Doctor;
 
 
 public class StudentDoctor extends Doctor {
@@ -66,6 +64,7 @@ public class StudentDoctor extends Doctor {
 
     public void displayCurrentYear() {
         System.out.println("\n  📚 INFORMACIÓN ACADÉMICA");
+
         System.out.println("  Año Actual: " + currentYear + "° año de residencia");
         System.out.println("  Horas de Estudio Semanales: " + weeklyStudyHours + " horas");
         System.out.println("  Estado: En formación");
@@ -79,6 +78,7 @@ public class StudentDoctor extends Doctor {
         System.out.println("  Tipo: Médico Estudiante/Residente");
         System.out.println("  Año de Residencia: " + currentYear + "° año");
         System.out.println("  Horas de Estudio Semanales: " + weeklyStudyHours + " horas");
+
     }
 
 

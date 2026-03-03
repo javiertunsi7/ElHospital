@@ -1,8 +1,6 @@
 package org.example.doctor;
 
-
-
-import org.example.hospital.model.Doctor;
+import org.example.model.Doctor;
 
 
 public class SpecialistDoctor extends Doctor {
@@ -40,7 +38,8 @@ public class SpecialistDoctor extends Doctor {
     @Override
     public void work() {
 
-        System.out.println("JORNADA LABORAL - MÉDICO ESPECIALISTA");
+        System.out.println("│ JORNADA LABORAL - MÉDICO ESPECIALISTA              │");
+
         System.out.println("  ✓ Dr./Dra. " + getName() + " trabajando en " + specialty);
         System.out.println("  ✓ Atendiendo pacientes especializados");
         System.out.println("  ✓ Realizando procedimientos avanzados");
